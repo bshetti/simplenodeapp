@@ -17,7 +17,7 @@ spec:
         app: workshop
     spec:
       containers:
-      - image: gcr.io/vmwarecloudadvocacy/simpleapp:latest
+      - image: gcr.io/vmwarecloudadvocacy/simplenodeapp:1.0
         name: workshop-node
         ports:
         - containerPort: 8080
